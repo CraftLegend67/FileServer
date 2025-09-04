@@ -1,79 +1,78 @@
-# 🌍 SurvivalSMX
+# 🌍 FileServer-MU
 
-Willkommen auf **SurvivalSMX**, einem **Minecraft Lifesteal SMP Server**, inspiriert von DonutSMP!  
-Hier erwartet dich spannendes PvP, echtes Survival-Feeling und eine aktive Community.  
-
----
-
-## ⚔️ Features
-
-
-- **100% Survival-Erlebnis**  
-  - Keine Grundstücks-Schutz-Plugins  
-  - PvP überall erlaubt  
-  - Echte Gefahr und Nervenkitzel wie bei DonutSMP
-
-- **Wirtschaft & Handel**  
-  - Spielergetriebene Ökonomie  
-  - Farmen, Bauen, Handeln – alles liegt in deiner Hand  
-
-- **Seasons**  
-  - Regelmäßige Resets  
-  - Neue Chancen für alle Spieler  
-  - Belohnungen für aktive Teilnehmer  
+Willkommen auf **FileServer-MU**, deinem **einfachen Fileserver**, auf dem jeder **Dateien hochladen und herunterladen** kann!  
+Hier kannst du deine Dateien sicher speichern, teilen und jederzeit wieder abrufen.
 
 ---
 
-## 🕹️ Serverinformationen
+## ⚡ Features
 
-- **Version:** Minecraft Java 1.20.x (kompatibel mit den neuesten Updates)  
-- **IP-Adresse:** `survivalsmx.g-portal.game`  
-- **Modus:** Lifesteal SMP  
-- **Whitelist:** ❌ (frei für alle Spieler)  
+- **Einfaches Hochladen & Herunterladen**  
+  - Dateien direkt per Browser hochladen  
+  - Übersichtliche Dateiliste zum schnellen Download  
+  - Unterstützt beliebige Dateitypen
+
+- **Benutzerfreundliches Interface**  
+  - Sauberes Web-Design  
+  - Intuitive Navigation  
+  - Schnell und zuverlässig
+
+- **Flexibilität**  
+  - Zugriff von jedem Gerät mit Internet  
+  - Keine Anmeldung notwendig (optional erweiterbar)
 
 ---
 
-## 📜 Regeln
+## 🌐 Zugriff auf den Fileserver
 
-1. **Kein Hacken oder Cheaten** (X-Ray, KillAura etc.)  
-2. **Kein Griefing mit Exploits** (TNT, normale Angriffe sind erlaubt)  
-3. **Respektiere andere Spieler** – Trash-Talk ist okay, aber keine Beleidigungen außerhalb des Spiels  
-4. **Keine Dupes** – Bugusing führt zu Bann  
+- **URL:** [https://fileserver-mu.vercel.app/](https://fileserver-mu.vercel.app/)  
+- **Browserbasiert:** Funktioniert auf Desktop, Tablet und Handy  
+- **Einfacher Upload / Download:** Alles sofort verfügbar
+
+---
+
+## 📜 Regeln & Hinweise
+
+1. **Kein Hochladen illegaler Inhalte** – Urheberrechte beachten  
+2. **Keine Viren oder Schadsoftware** – sonst wird der Zugriff gesperrt  
+3. **Respektiere andere Nutzer** – keine absichtliche Störung des Servers  
+4. **Dateigröße beachten** – maximale Uploadgröße je nach Serverkonfiguration
 
 ---
 
 ## 🏆 Ziel des Servers
 
-- Überlebe so lange wie möglich  
-- Sammle Herzen und werde der **stärkste Spieler auf SurvivalSMX**  
-- Kämpfe, handle und überliste deine Gegner  
+- Dateien sicher und einfach teilen  
+- Dateien jederzeit herunterladen  
+- Schnell und unkompliziert für private oder kollaborative Nutzung
 
 ---
 
-## 📬 Community
+## 📬 Community / Support
 
-- **Discord:** [Join hier](https://discord.gg/p5jstBkG)  
-- **Website:** [survivalsmx.net](https://survivalsmx.net)  
+- **Feedback & Hilfe:** Über Issues im GitHub-Repo oder per Kontaktformular auf der Website
 
 ---
 
-## 🔥 Warum SurvivalSMX?
+## 🔥 Warum FileServer-MU?
 
-- Gleiche Spielweise wie DonutSMP  
-- Deutscher / internationaler Server  
-- Faire Admins und aktives Team  
-- PvP + Survival pur, ohne unnötige Plugins  
+- Einfach, schnell und direkt über den Browser nutzbar  
+- Kein kompliziertes Setup nötig  
+- Unterstützt alle gängigen Dateitypen  
+- Perfekt für private Projekte oder Teamarbeit
 
 ---
 
 ## 🛠️ Technologien
 
-- Minecraft Spigot/Paper 1.20.x  
-- Lifesteal Plugin  
-- Custom Configs für echtes DonutSMP-Feeling  
+- PHP 7.4+  
+- Webserver (Apache, Nginx oder Vercel)  
+- HTML / CSS / JS für das Frontend  
+- Optional: Datenbank für Logs oder Benutzerverwaltung
 
 ---
 
 ## 📜 Lizenz
 
-Privatprojekt – SurvivalSMX ist **nicht offiziell mit DonutSMP verbunden**, sondern lediglich davon inspiriert.  
+Privatprojekt – FileServer-MU ist **frei nutzbar**, aber das Hochladen illegaler Inhalte ist untersagt.
+
