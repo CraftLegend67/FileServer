@@ -1,0 +1,276 @@
+html, body, iframe 
+{
+  scroll-behavior:smooth;
+}
+body
+{
+  font-family:Verdana,"Lucida Sans Unicode",sans-serif;
+  color:grey;
+}
+#Mainbody
+{
+  background-image:url("hausfronth.jpg");
+  background-size:100% auto;
+  background-repeat:no-repeat;
+}
+#Logindiv
+{
+  left:50%;
+	width:500px;
+	margin-left:-250px;
+	position:relative;
+	top:100px;
+	text-align:center;
+}
+button,
+input:not([type=range]),
+.button
+{
+  font-size:20px;
+  border-radius:8px;
+  background-color:white;
+  color:grey;
+  padding:5px;
+  text-align: center;
+  border:2px solid grey;
+  -webkit-transition-duration:0.4s;
+  transition-duration:0.4s;  
+}
+#Seite input, .button
+{
+  font-size:25px;
+}
+button:hover,
+input:hover,
+.button:hover
+{
+  background-color:grey;
+  color:white;
+}
+input:disabled
+{
+  color:lightgrey;
+  border:2px solid lightgrey;
+}
+input[type=range]
+input[type=range]::-webkit-slider-runnable-track
+{
+  width: 300px;
+  height: 5px;
+  background: grey;
+  border: none;
+  border-radius: 3px;
+}
+input[type=range]::-webkit-slider-thumb
+{
+  -webkit-appearance: none;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #FACC2E;
+  margin-top: -4px;
+}
+input[type=range]:focus
+{
+  outline: none;
+}
+input[type=range]:focus::-webkit-slider-runnable-track
+{
+  background: #333;
+}
+input[type=range]
+{
+  border: 0px solid white; 
+  background: hsla(1,0%,0%,0);
+  width: 200px;
+}
+input[type=range]::-moz-range-track
+{
+  width: 200px;
+  height: 10px;
+  background: grey;
+  border: none;
+  border-radius: 3px;
+}
+input[type=range]::-moz-range-thumb
+{
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #FACC2E;
+}
+input[type=range]:-moz-focusring
+{
+  outline: 1px solid white;
+  outline-offset: -1px;
+}
+input[type=range]:focus::-moz-range-track
+{
+  background: #333;
+}
+.Balken
+{
+  left:0;
+  width:98%;
+  height:25px;
+  background-color:grey;
+  color:white;
+  padding:5px;
+  margin-top:5px;
+  border-radius:8px;
+}
+.Balken:hover
+{
+  cursor:pointer;
+}
+.Balkendisabled
+{
+  left:0;
+  width:98%;
+  height:25px;
+  background-color:lightgrey;
+  color:white;
+  padding:5px;
+  margin-top:5px;
+  border-radius:8px;
+}
+iframe
+{
+  width:100%;
+  border:0;
+  overflow:hidden;
+}
+#statusmsg
+{
+  position:fixed;
+  bottom:0;
+  left:5px;
+  width:98%;
+  height:25px;
+  background-color:red;
+  color:white;
+  padding:5px;
+  margin-top:5px;
+  border-radius:8px;  
+}
+#switch1,#switch2
+{
+  display:none;
+}
+#switch1 + label .buttonbackground:hover,#switch2 + label .buttonbackground:hover
+{
+  cursor:pointer;
+}
+.buttonbackground 
+{
+  background-color:#ccc;
+  width:5rem;
+  height:2.5rem;
+  border-radius:1.25rem;
+  box-shadow:0 2px 2px rgba(0,0,0,0.5) inset, 0 -2px 0px rgba(255,255,255,0.5) inset;
+  position: relative;
+  transition:background-color 0.2s ease;margin: 0.5rem auto;display:block;
+}
+#switch1:checked + label .buttonbackground,#switch2:checked + label .buttonbackground
+{
+  background-color:#64b464;
+}
+.buttonslider
+{
+  background:#ddd;
+  width:2.7rem;
+  height:2.7rem;
+  border-radius:50%;
+  border:1px solid #aaa;
+  top:-0.15rem;
+  position:absolute;
+  box-shadow:0 4px 3px rgba(0,0,0,0.3);
+  left:0;
+  transition:all 0.2s ease;
+  display:block;
+}
+#switch1:checked + label .buttonslider,#switch2:checked + label .buttonslider
+{
+  left:2.5rem;
+  background:#eee;
+}
+select
+{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  border:none;
+  width:100%;
+  height:40px;
+  -moz-padding-start:calc(10px - 3px);
+  padding-left:10px;
+  background:#64b464;
+  color:#fff;
+  font-family:'Open Sans', sans-serif;
+  font-size:16px;
+  box-shadow:2px 2px 5px 1px rgba(0,0,0,0.3);
+  border-radius:3px;
+}
+select::-ms-expand
+{
+  display:none;
+}
+figure, figcaption
+{
+  margin:0;
+  padding:0;
+}
+#gallery
+{
+  clear:left;
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(15em, 1fr));
+  gap:1em;
+  text-align:center; 
+}
+#gallery figure
+{
+  position:relative;
+  color:black;
+  background:white;
+}
+figure img
+{
+  width:100%;
+  display:block;
+}
+#gallery > figure > figcaption
+{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  line-height:1.5em;
+  font-size:1.3em;
+  background:rgba(0,0,0,0.3);
+}
+#gallery > figcaption
+{
+  grid-column:1 / -1;
+}
+#eintraegerechts
+{
+  position:absolute;
+  top:0;
+  right:0;
+  margin:0 0 0 auto;
+  font-size:10px;
+}
+#imglinks
+{
+  height:270px;
+  float:left;
+  margin-right:50px;
+}
+#tabrechts
+{
+  font-size:13px;
+  background-color:white;
+  border-spacing:0px 0px;
+}
