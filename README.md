@@ -1,6 +1,6 @@
-# 🌍 FileServer-MU
+# 🌍 FileServer
 
-Willkommen auf **FileServer-MU**, deinem **einfachen Fileserver**, auf dem jeder **Dateien hochladen und herunterladen** kann!  
+Willkommen auf **FileServer**, deinem **einfachen Fileserver**, auf dem jeder **Dateien hochladen und herunterladen** kann!  
 Hier kannst du deine Dateien sicher speichern, teilen und jederzeit wieder abrufen.
 
 ---
