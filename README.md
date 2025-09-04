@@ -54,7 +54,7 @@ Hier kannst du deine Dateien sicher speichern, teilen und jederzeit wieder abruf
 
 ---
 
-## 🔥 Warum FileServer-MU?
+## 🔥 Warum FileServer?
 
 - Einfach, schnell und direkt über den Browser nutzbar  
 - Kein kompliziertes Setup nötig  
